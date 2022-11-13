@@ -18,20 +18,12 @@ const Header = ({setCoordinates}) => {
   return (
     <Navbar bg="primary" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
+          <Navbar.Brand href="#home">Travel</Navbar.Brand>
         
          
          <Col md={6}>
-           <Card className="p-3 mb-2">
+     
              
-               <span>
-                 <b>Origin</b>
-               </span>
                <Autocomplete onLoad={onLoad} onPlaceChanged={onPlaceChanged}>
             <div>
               <div>
@@ -40,7 +32,7 @@ const Header = ({setCoordinates}) => {
               <input placeholder="Search…"  />
             </div>
            </Autocomplete>
-              </Card>
+            
             </Col>
              </Container>
              </Navbar>
