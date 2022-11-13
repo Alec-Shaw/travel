@@ -1,0 +1,21 @@
+.conteiner {
+    width: 800px;
+    height: 400px;
+}
+.scale {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale:hover {
+    position: 'absolute';
+    transform: scale(1.2);
+    z-Index: '2'; 
+   }
+    
+  .pointer {
+    cursor: 'pointer',
+  }
+  .markerContainer {
+    position: 'absolute';
+    transform: scale(1.2); 
+    z-Index: '1'; 
+  }
